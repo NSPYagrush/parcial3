@@ -148,7 +148,7 @@ public class AutomovilDAO {
         System.out.println("Invocando a actualizar libro del lado del servidor");
         conexionABaseDeDatos.conectar();
         int resultado = -1;
-        
+        //matenme ya pofa
         try {            
             PreparedStatement sentencia = null;
             String consulta = "update libros set libros.codigo=?,"
